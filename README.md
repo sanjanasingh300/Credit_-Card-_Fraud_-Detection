@@ -12,7 +12,7 @@ The main aim of this project is the detection of fraudulent credit card transact
 # DATA SOURCE 
 The dataset was retrieved from an open-source website, Kaggle.com. It contains data on transactions made in 2013 by European credit card users in two days only. Thedataset consists of 31 attributes and 284,808 rows. Twenty-eight attributes are numeric variables that, due to the confidentiality and privacy of the customers, have been transformed using PCA transformation; the three remaining attributes are ”Time”, which contains the elapsed seconds between the first and other transactions of each Attribute, ”Amount” is the amount of each transaction, and the final attribute “Class” which contains binary variableswhere “1” is a case of fraudulent transaction, and “0” is not as case of fraudulent transaction.
 
-# DATASET:
+# DATASET:https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 # ALGORITHM 
 1.K-Nearest Neighbor (KNN)
@@ -25,5 +25,9 @@ There are many ways to improve the model, such as using it on different datasets
 
 
 
-#Conclusion
+# Conclusion
 In conclusion, the main objective of this project was to find the most suited model for creditcard fraud detection in terms of the machine learning techniques chosen for the project. It was met by building the four models and finding the accuracies of them all; the best in terms of accuracy is KNN and Decision Tree, which scored 100 on credit card fraud and increased the customer’s satisfaction as it will provide themwith a better experience and feeling secure.
+
+
+
+
